@@ -11,3 +11,6 @@ disabled = true
 
 [aws]
 format = 'on [$symbol($profile ) (\[$duration\])]($style)'
+
+[python]
+disabled = true
