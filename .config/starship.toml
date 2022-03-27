@@ -9,8 +9,16 @@ success_symbol = "[➜](bold green)" # The "success_symbol" segment is being set
 [package]
 disabled = true
 
-[aws]
-format = 'on [$symbol($profile ) (\[$duration\])]($style)'
-
 [python]
 disabled = true
+
+[aws]
+format = '[$symbol($profile ) (\[$duration\])]($style) '
+symbol = ' '
+disabled = true
+
+[conda]
+format = "[$symbol$environment]($style) "
+
+[git_branch]
+symbol = ' '
