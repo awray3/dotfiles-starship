@@ -22,3 +22,6 @@ format = "[$symbol$environment]($style) "
 
 [git_branch]
 symbol = ' '
+
+[vcsh]
+format = '[inside vcsh $repo]($style)'
