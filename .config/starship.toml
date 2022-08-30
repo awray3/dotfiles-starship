@@ -24,4 +24,4 @@ format = "[$symbol$environment]($style) "
 symbol = ' '
 
 [vcsh]
-format = '[inside vcsh $repo]($style)'
+format = '[$repo  ]($style)'
