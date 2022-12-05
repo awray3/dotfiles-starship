@@ -4,15 +4,15 @@ format="$all$directory$character"
 add_newline = true
 
 [character] 
-error_symbol = "[](red)"
+error_symbol = "[x](red)"
 success_symbol = "[](green)" 
 vimcmd_replace_symbol = "[](green)" 
 vimcmd_symbol = "[](green)" 
 vimcmd_visual_symbol = "[](yellow)" 
 
 # Disable the package module, hiding it from the prompt completely
-[package]
-disabled = true
+# [package]
+#disabled = false
 
 [python]
 disabled = true
@@ -30,4 +30,3 @@ symbol = ' '
 
 [vcsh]
 format = '[$repo  ]($style)'
-
