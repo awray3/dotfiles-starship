@@ -5,10 +5,10 @@ add_newline = true
 
 [character] 
 error_symbol = "[x](red)"
-success_symbol = "[](green)" 
-vimcmd_replace_symbol = "[](green)" 
-vimcmd_symbol = "[](green)" 
-vimcmd_visual_symbol = "[](yellow)" 
+success_symbol = "[](green)"
+vimcmd_replace_symbol = "[](green)"
+vimcmd_symbol = "[](green)"
+vimcmd_visual_symbol = "[](yellow)"
 
 # Disable the package module, hiding it from the prompt completely
 # [package]
@@ -30,3 +30,6 @@ symbol = ' '
 
 [vcsh]
 format = '[$repo  ]($style)'
+
+[shell]
+xonsh_indicator=":shell:"
