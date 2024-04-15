@@ -19,6 +19,7 @@ disabled = true
 
 [quarto]
 symbol = ' '
+version_format = 'v${major}.${minor}'
 
 [aws]
 format = '[$symbol($profile ) (\[$duration\])]($style) '
