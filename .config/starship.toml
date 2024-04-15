@@ -5,8 +5,8 @@ add_newline = true
 
 [character] 
 error_symbol = "[x](red)"
-success_symbol = "[](green)"
-vimcmd_replace_symbol = "[](green)"
+success_symbol = "[󰀵](green)"
+vimcmd_replace_symbol = "[󰀵](green)"
 vimcmd_symbol = "[](green)"
 vimcmd_visual_symbol = "[](yellow)"
 
@@ -17,9 +17,15 @@ vimcmd_visual_symbol = "[](yellow)"
 [python]
 disabled = true
 
+[quarto]
+symbol = ' '
+
 [aws]
 format = '[$symbol($profile ) (\[$duration\])]($style) '
 symbol = ' '
+disabled = true
+
+[gcloud]
 disabled = true
 
 [conda]
